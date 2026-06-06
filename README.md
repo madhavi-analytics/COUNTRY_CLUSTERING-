@@ -1,14 +1,14 @@
 # COUNTRY_CLUSTERING-
 
-#Project Overview
+# Project Overview
 
 This project focuses on Country Clustering using Machine Learning (Unsupervised Learning). The main goal is to analyze country-level socio-economic and health indicators and group countries based on similarities. This helps an international NGO identify countries that require urgent support and better resource allocation. 
 
-#Business Problem
+# Business Problem
 
 An international NGO has limited funds and resources to support countries worldwide. Since not all countries require the same level of help, the NGO needs a data-driven approach to prioritize countries based on economic, health, and social indicators. 
 
-#Objective
+# Objective
 
 Analyze country-level data
 
@@ -63,9 +63,9 @@ Seaborn
 
 Scikit-learn
 
-#Project Workflow
+# Project Workflow
 
-#1. Data Preprocessing
+# 1. Data Preprocessing
 
 Loaded dataset using Pandas
 
@@ -77,7 +77,7 @@ Selected important features for clustering
 
 Applied feature scaling using StandardScaler for better clustering performance
 
-#2. Exploratory Data Analysis (EDA)
+# 2. Exploratory Data Analysis (EDA)
    
 Data distribution analysis
 
@@ -87,7 +87,7 @@ Feature relationship analysis
 
 Country comparison using socio-economic indicators 
   
-#3. Clustering Algorithms Used
+# 3. Clustering Algorithms Used
    
 K-Means Clustering
 
@@ -101,7 +101,7 @@ Creates dendrogram structure
 
 Helps visualize country grouping patterns 
    
-#Results
+# Results
 
 The countries were grouped into 3 meaningful clusters:
 
@@ -127,7 +127,7 @@ Low child mortality
 
 High life expectancy 
    
-#Visualizations Used
+# Visualizations Used
 
 PCA Scatter Plot
 
@@ -137,7 +137,7 @@ Elbow Method Graph
 
 These visualizations helped understand cluster separation clearly. 
 
-#Key Insights
+# Key Insights
 
 Developed countries showed better health and economic indicators
 
@@ -147,6 +147,6 @@ Strong relationship found between economic condition and health indicators
 
 Clear global inequality observed across countries
 
-#Conclusion
+# Conclusion
 
 This project successfully clustered countries into meaningful development groups using machine learning techniques. The insights can help NGOs prioritize countries and allocate resources effectively. 
